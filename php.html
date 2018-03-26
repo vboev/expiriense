@@ -1,0 +1,15 @@
+<h2>Битрикс Bitrix</h2>
+
+<p>Добавить в init.php для генерации Description в статичных страницах и разделах от родителя</p>
+<code>
+<?
+AddEventHandler("main", "OnEpilog", "OnEpilogHandler");
+function OnEpilogHandler()
+{
+    global $APPLICATION;
+    if (strpos($APPLICATION->GetCurPage(), 'produktsiya')) {
+        $APPLICATION->SetPageProperty("Description", $APPLICATION->GetTitle() . ". Полиграфическая продукция любой сложности. Наш телефон в Москве: 8 (495) 229-62-05");
+    }
+}
+?>
+</code>
