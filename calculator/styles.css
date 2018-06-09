@@ -1,0 +1,22 @@
+
+
+
+
+
+
+.itogo{
+	position: fixed;
+	right: 100px;
+	top:50px;
+	width: 100px;
+	height: 40px;
+
+}
+
+.shadow{
+	margin-bottom: 15px;
+}
+
+.lvl{
+	padding-left: 1.25rem;
+}
