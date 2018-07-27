@@ -6,7 +6,7 @@ $(document).ready(function(){
                 var text_comment = $('#text_comment').val();
                 // отправляем данные
                 $.ajax({
-                    url: "action.php", // куда отправляем
+                    url: "backend.php", // куда отправляем
                     type: "post", // метод передачи
                     dataType: "json", // тип передачи данных
                     data: { // что отправляем
