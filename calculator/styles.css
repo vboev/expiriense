@@ -1,9 +1,3 @@
-
-
-
-
-
-
 .itogo{
 	position: fixed;
 	right: 100px;
@@ -13,10 +7,12 @@
 
 }
 
-.shadow{
-	margin-bottom: 15px;
-}
-
 .lvl{
 	padding-left: 1.25rem;
+}
+
+.section{
+	padding: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
